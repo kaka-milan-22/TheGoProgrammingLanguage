@@ -88,7 +88,7 @@ func main() {
 	var a Integer = 1
 	var b1 LessAdder = &a //OK
 	var b2 LessAdder = a  //not OK
-	fmt.Print(b.Less(1))
+	fmt.Print(b1.Less(1))
 }
 ```
 
